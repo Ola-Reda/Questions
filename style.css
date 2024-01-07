@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-primary-1: #c59d5f;
+    --color-primary-2: hsl(210, 22%, 49%);
+    --spacing: 4px;
+}
+
+body {
+    background-color: hsl(210, 36%, 96%);
+    font-family: "Open Sans", sans-serif;
+}
+
+/*section*/
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*title*/
+h1 {
+    font-family: 'Great Vibes', cursive;
+    color: var(--color-primary-1);
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    margin: 46px auto;
+}
+
+/*Details*/
+Details {
+    background-color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    margin-bottom: 30px;
+}
