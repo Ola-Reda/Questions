@@ -36,6 +36,7 @@ h1 {
 /*Details*/
 Details {
     background-color: #fff;
+    color: hsl(209, 61%, 16%);
     text-transform: capitalize;
     letter-spacing: 4px;
     border-radius: 8px;
